@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_tasks/pages/taskpage.dart';
+import 'package:ui_tasks/pages/shop_ui_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: TaskPage(),
+        home: ShopUIPage(),
         debugShowCheckedModeBanner: false,
         routes: {
-          TaskPage.id: (context) => TaskPage(),
+          ShopUIPage.id: (context) => ShopUIPage(),
         });
   }
 }
